@@ -8,9 +8,11 @@ body {
   font-size: 1.4rem;
   line-height: 1.6;
 }
+
 .logo {
-display: flex;
+  display: flex;
 }
+
 header {
   max-width: 960px;
   margin: 0 auto;
@@ -50,7 +52,8 @@ header {
 .year {
   max-width: 960px;
   margin: 50px auto 10px;
-  font-size: 6vw;
+  font-size: 4vw;
+  text-align: center;
   color: #0E0E12;
   padding: 0 20px;
 }
@@ -64,6 +67,7 @@ header {
 
 h3. year {
   margin: 0 auto;
+  text-align: center;
 }
 
 .list-item {
@@ -171,7 +175,7 @@ my-portfolio {
   }
 
   .year {
-    font-size: 9rem;
+    font-size: 3rem;
   }
 }
 
